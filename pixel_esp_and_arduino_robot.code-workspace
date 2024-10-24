@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Pixel_robot_arduino_uno_core",
+			"path": "Pixel_robot_arduino_uno_core"
+		},
+		{
+			"name": "Pixel_robot_esp32_cam_core",
+			"path": "Pixel_robot_esp32_cam_core"
+		}
+	],
+	"settings": {}
+}
