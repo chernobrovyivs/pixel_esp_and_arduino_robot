@@ -9,5 +9,9 @@
 			"path": "Pixel_robot_esp32_cam_core"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"esp32_cam_mod_to_wifi_func": "cpp"
+		}
+	}
 }
