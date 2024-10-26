@@ -304,6 +304,16 @@ void Servo_Move()  //servo
     delay(10);
 }
 
+void calibration_servo_motor_func()
+{
+    MOTORservo.write(0);
+    delay(1000);
+    MOTORservo.write(90);
+    delay(1000);
+    MOTORservo.write(180);
+    delay(1000);
+}
+
 void init_arduino_all_remote_control() 
 {
     Serial.setTimeout(10);

@@ -8,13 +8,11 @@
 */
 
 #include <Arduino.h>
-#include <calibration_in_start_func.h>
 #include <arduino_all_remote_control.h>
 
 void setup() {
-  init_calibration_func();
-  calibration_servo_motor_func();
   init_arduino_all_remote_control();
+  calibration_servo_motor_func();
 }
 
 void loop() {

@@ -11,6 +11,7 @@
 #include "esp32_cam_mod_to_wifi_func"
 
 void setup() {
+  delay(4000);
   init_esp_32_cam_wifi_func();
 }
 
